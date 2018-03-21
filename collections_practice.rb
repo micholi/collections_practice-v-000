@@ -40,7 +40,11 @@ def find_a(strings)
 end
 
 def sum_array(integers)
-  integers.inject(0, :+)
+  # integers.inject(0, :+)
+  sum = 0
+  integers.each do |number|
+    sum += number
+  end
 end
 
 def add_s
