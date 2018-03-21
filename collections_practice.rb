@@ -30,7 +30,7 @@ def swap_elements(array)
         swap_value_two
       else
         element
-
+end
     end
 end
 
