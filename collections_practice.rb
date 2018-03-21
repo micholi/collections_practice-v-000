@@ -24,15 +24,14 @@ def swap_elements(array)
     if index == 1
       store_element_one = element
         element = array[2]
-          
+
       elsif index == 2
         element = store_element_one
-      else
-        element
+    
 end
 
     end
-    
+
 end
 
 def reverse_array(integers)
