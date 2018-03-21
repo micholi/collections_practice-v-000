@@ -21,13 +21,13 @@ def swap_elements(array)
   # array[1], array [2] = array[2], array[1]
 # array
   array.each_with_index do |element, index|
-    store_value = array[index[1]]
 
     if index == 1
       array[index] = array[index + 1]
+    else placeholder = element
 
-    elsif index == 2
-    array[index] = store_value
+    if index == 2
+    array[index] = placeholder
 end
 
 
