@@ -27,6 +27,7 @@ def swap_elements(array)
       value_two = element
       
 end
+value_one, value_two = value_two, value_one
 
     end
 
