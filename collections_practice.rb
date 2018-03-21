@@ -46,6 +46,7 @@ def sum_array(integers)
     number +=
   end
 end
+end
 
 def add_s
 
