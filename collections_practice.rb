@@ -18,8 +18,9 @@ end
 
 def swap_elements(array)
   # this can't be right
-  array[1], array [2] = array[2], array[1]
-array
+  # array[1], array [2] = array[2], array[1]
+# array
+  array.each_with_index |element, index|
 end
 
 def reverse_array(integers)
