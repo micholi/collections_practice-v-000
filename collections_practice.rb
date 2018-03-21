@@ -17,21 +17,17 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(array)
-  # this can't be right
+  
   # array[1], array [2] = array[2], array[1]
 # array
   array.each_with_index do |element, index|
     if index == 1
-      value_one = element
-      array[index] = array[index + 1]
-
-    elsif index == 2
-      element = value_one
+      array[index], array[index + 1] = array[index], array[index + 1]
 
 end
 array
 
-    end
+  
 
 end
 
