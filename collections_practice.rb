@@ -23,6 +23,8 @@ def swap_elements(array)
   array.each_with_index do |element, index|
     if index == 1
       element = array[index + 1]
+    elsif index == 2
+      element = array[1]
 end
 array
     end
