@@ -45,6 +45,7 @@ def sum_array(integers)
   integers.each do |number|
     sum = sum + number
   end
+end
 
 
 def add_s
