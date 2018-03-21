@@ -26,7 +26,7 @@ def swap_elements(array)
       array[index] = array[index + 1]
 
     elsif index == 2
-      array[index] = value_one
+      array[index] = arracy[1]
 
 end
 array
