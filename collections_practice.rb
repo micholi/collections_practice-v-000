@@ -23,17 +23,16 @@ def swap_elements(array)
   array.each_with_index do |element, index|
     if index == 1
       store_element_one = element
-        swap_value = array[2]
-          swap_value
+        element = array[2]
+          
       elsif index == 2
-        swap_value_two = store_element_one
-        swap_value_two
+        element = store_element_one
       else
         element
 end
 
     end
-    array
+    
 end
 
 def reverse_array(integers)
