@@ -22,18 +22,8 @@ def swap_elements(array)
 # array
   array.each_with_index do |element, index|
 
-    if index == 1
-      array[index] = array[index + 1]
-    else
-      placeholder = element
+  
 
-    if index == 2
-    array[index] = placeholder
-end
-
-
-end
-end
 end
 
 def reverse_array(integers)
