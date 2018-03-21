@@ -22,7 +22,7 @@ def swap_elements(array)
 # array
   array.each_with_index do |element, index|
     if index == 1
-      store_element_one = element
+      # store_element_one = element
         swap_value = array[2]
           swap_value
       elsif index == 2
