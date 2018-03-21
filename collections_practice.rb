@@ -28,7 +28,7 @@ def swap_elements(array)
     elsif index == 2
     array[index] = placeholder
 end
-array
+
 
 
 end
