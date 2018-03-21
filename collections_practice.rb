@@ -21,7 +21,17 @@ def swap_elements(array)
   # array[1], array [2] = array[2], array[1]
 # array
   array.each_with_index |element, index|
-    element = array[index + 1] if index == 1
+    if index == 1
+      store_element_one = element
+        swap_value = array[2]
+          swap_value
+      elsif index == 2
+        swap_value_two = store_element_one
+        swap_value_two
+      elsif
+        element
+
+    end
 end
 
 def reverse_array(integers)
