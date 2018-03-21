@@ -43,6 +43,6 @@ def sum_array(integers)
   integers.inject(0, :+)
 end
 
-def add_s
+def add_s(words)
 
 end
