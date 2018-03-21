@@ -43,8 +43,7 @@ def sum_array(integers)
   # integers.inject(0, :+)
   sum = 0
   integers.each do |number|
-    sum = sum + number
-    sum
+    sum += number
   end
 end
 
