@@ -31,8 +31,9 @@ def swap_elements(array)
       else
         element
 end
-array
+
     end
+    array
 end
 
 def reverse_array(integers)
