@@ -20,16 +20,17 @@ def swap_elements(array)
   # this can't be right
   # array[1], array [2] = array[2], array[1]
 # array
+  swapped_array = []
   array.each_with_index do |element, index|
     if index == 1
       store_element_one = element
         element = array[2]
-
+        swapped_array << element
       elsif index == 2
         element = store_element_one
-
+          swapped_array << element
 end
-array
+swapped_array
     end
 
 end
