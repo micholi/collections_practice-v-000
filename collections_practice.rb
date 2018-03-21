@@ -28,7 +28,7 @@ def swap_elements(array)
       elsif index == 2
         swap_value_two = store_element_one
         swap_value_two
-      elsif
+      else
         element
 
     end
