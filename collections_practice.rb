@@ -23,7 +23,7 @@ def swap_elements(array)
   array.each_with_index do |element, index|
     if index == 1
       value_one = element
-      array[index] = array[index + 2]
+      array[index] = array[index + 1]
     elsif index == 2
       array[index] = value_one
 
