@@ -21,6 +21,7 @@ def swap_elements(array)
   # array[1], array [2] = array[2], array[1]
 # array
   array.each_with_index |element, index|
+    element = array[index + 1] if index == 1
 end
 
 def reverse_array(integers)
