@@ -45,6 +45,7 @@ end
 
 def add_s(words)
   words.each_with_index.collect{ |word, index| }
-    index == 1 ? word : "#{word}s"
+  test = index
+    text == 1 ? word : "#{word}s"
 
 end
