@@ -21,8 +21,9 @@ def swap_elements(array)
   # array[1], array [2] = array[2], array[1]
 # array
   array.each_with_index do |element, index|
+    store_value = element if index == 1
+    
     if index == 1
-      placeholder = element
       array[index] = array[index + 1]
 
     elsif index == 2
