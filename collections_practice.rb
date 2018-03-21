@@ -31,6 +31,7 @@ def swap_elements(array)
       else
         element
 end
+array
     end
 end
 
