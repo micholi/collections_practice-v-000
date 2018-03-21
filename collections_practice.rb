@@ -29,6 +29,7 @@ def swap_elements(array)
       elsif index == 2
         element = store_element_one
           swapped_array << element
+        else swapped_array << element
 end
 swapped_array
     end
