@@ -46,9 +46,9 @@ end
 def add_s(words)
   words.each_with_index do |word, index|
     if index == 1
-      "#{word}s"
-    else
       word
-  end    
+    else
+      "#{word}s"
+  end
 end
 end
